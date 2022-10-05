@@ -1,0 +1,136 @@
+body {
+    font-family: "Roboto";
+    background: #ffffff;
+    }
+a {
+    color: #212121;
+    text-decoration: none;
+    }
+a:hover {
+    color: #2196f3;
+    }   
+ul {
+    list-style: none;
+    }
+h2 {
+    font-weight: 700;
+    }
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }   
+.firm-logo-style {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    }
+.firm-logo-black {
+    color: #000000;
+    }
+.firm-logo-blue {
+    color: #2196f3;
+    }
+.firm-logo-white {
+    color: #FFFFFF;
+    }
+.site-nav,
+.contact-nav {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+.current-page-color {
+    color: #2196f3;
+    }
+.main-section {
+    background: #2f303a;
+    }
+.h1-style {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    }
+.buttons-style {
+    background: #F5F4FA;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0ch;
+    color: #212121;
+    }
+.buttons-style:hover {
+    background: #2196f3;
+    color: #ffffff;
+    }
+.battons-style:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+.main-button {
+    box-shadow: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #2196f3;
+    border: 0ch;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    }
+.main-button:hover {
+    background: #0376d4;
+    }
+.main-button:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }   
+.wdwd-style {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+.our-team-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+.our-team-background {
+    background: #F5F4FA;
+    }
+.our-team-card-background {
+    background: #Ffffff;
+    }
+.footer-style {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2f303a;
+    }
+.adress-link-style {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
