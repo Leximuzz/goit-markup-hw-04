@@ -16,7 +16,6 @@ ul {
 }
 h2 {
   font-family: "Roboto";
-
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -36,7 +35,6 @@ p {
   margin: 15px;
   padding: 15px;
 }
-
 .site-nav {
   width: 1170px;
   margin: 25px 0 25px 0;
@@ -48,9 +46,6 @@ p {
 .nav-li-spase {
   width: 11px;
 }
-.site-nav .ithem {
-}
-
 .site-nav .ithem:last-child {
   margin-right: 0;
 }
@@ -71,7 +66,6 @@ p {
 .firm-logo-white {
   color: #ffffff;
 }
-
 .contact-nav {
   display: flex;
   font-family: inherit;
@@ -218,24 +212,22 @@ p {
   justify-content: center;
   width: 1200;
 }
-.porttolio-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 185px 0 185px;
+.porttolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 185px 0 185px;
 }
 .flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .portfolio-filter {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
-
 }
 .portfolio-style {
   box-sizing: border-box;
@@ -246,12 +238,11 @@ p {
   background: #ffffff;
   border: 1px solid #eeeeee;
   margin: 15px;
-
 }
 .portfolio-href-style {
-    padding: 40px 24px 40px 24px;
+  padding: 40px 24px 40px 24px;
 }
 
-.portfolio-description-style{
-    padding: 15px;
+.portfolio-description-style {
+  padding: 15px;
 }
