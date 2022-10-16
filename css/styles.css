@@ -78,11 +78,12 @@ img {
 }
 
 .logo {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--black-color);
-  margin-right: 93px;
+  margin: 0 93px 0 5px;
 }
 /*.logo:hover{
     color: var(--main-blue-color);
