@@ -12,16 +12,18 @@
   --nav-border: #ececec;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
   color: var(--text-color);
 }
 a {
+  font-style: normal;
   color: var(--main-font-color);
   text-decoration: none;
 }
 
 a:hover {
+  font-style: normal;
   color: var(--main-blue-color);
 }
 a:focus {
@@ -33,27 +35,6 @@ ul {
   padding-left: 0;
   padding-inline-start: 0;
   margin: 0;
-}
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--main-font-color);
-  margin: 0;
-}
-h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--main-font-color);
-}
-p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 img {
   display: block;
@@ -89,6 +70,7 @@ img {
     color: var(--main-blue-color);
 }*/
 .logo-web {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -168,6 +150,21 @@ color: var(--main-blue-color);
 }
 
 /*features-section*/
+.feature-h3-style {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+
+.feature-p-style {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .features-container {
   display: flex;
   width: 1170px;
@@ -181,6 +178,13 @@ color: var(--main-blue-color);
 }
 
 /*What do we do*/
+.index-h2-style {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
 .wdwd-container {
   width: 1170px;
   padding: 0 0 94px 0;
@@ -193,6 +197,25 @@ color: var(--main-blue-color);
   gap: 30px;
 }
 /*our team*/
+.team-card-text {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.our-team-h3-style {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.our-team-p-style {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+}
 
 .our-team-section {
   background-color: var(--section-light-bg);
@@ -229,16 +252,20 @@ color: var(--main-blue-color);
 }
 
 .footer-logo {
+  padding-bottom: 20px;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--white-color);
+  opacity: 0.6;
 }
 .address-link-footer {
-  font-weight: 500;
+  padding-top: 9px;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .address-link-footer:hover {
@@ -248,10 +275,9 @@ color: var(--main-blue-color);
   margin-top: 20px;
 }
 .footer-address-color {
+  font-style: normal;
   color: var(--white-color);
 }
-
-
 
 /*page-portfolio*/
 
@@ -273,35 +299,38 @@ color: var(--main-blue-color);
   border-radius: 4px;
   padding: 6px 22px;
   border: 0;
+  background-color: var(--section-light-bg);
 }
 .button-style:hover {
-  background-color: var(--blue-batton-hover);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-              0px 1px 2px rgba(0, 0, 0, 0.08),
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--white-color);
+  background-color: var(--main-blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-style:focus {
-  background-color: var(--blue-batton-hover);
+  color: var(--white-color);
+  background-color: var(--main-blue-color);
 }
 .h3-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-font-color);
 }
 .p-portfolio {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--address-color);
 }
 .portfolio-card {
   background-color: var(--white-color);
   border: 1px solid var(--card-border);
 }
-.portfolio-card:hover{
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-              0px 1px 2px rgba(0, 0, 0, 0.08),
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+.portfolio-card:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-card-flex {
