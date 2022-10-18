@@ -66,9 +66,13 @@ img {
   color: var(--black-color);
   margin: 0 93px 0 5px;
 }
-/*.logo:hover{
-    color: var(--main-blue-color);
-}*/
+.logo:hover {
+  color: var(--black-color);
+}
+
+.logo:focus {
+  color: var(--black-color);
+}
 .logo-web {
   font-family: 'Raleway';
   font-weight: 700;
@@ -258,7 +262,13 @@ color: var(--main-blue-color);
   font-size: 26px;
   line-height: 1.2;
   color: var(--white-color);
-  opacity: 0.6;
+}
+.footer-logo:hover {
+  color: var(--white-color);
+}
+
+.footer-logo:focus {
+  color: var(--white-color);
 }
 .address-link-footer {
   padding-top: 9px;
@@ -311,6 +321,16 @@ color: var(--main-blue-color);
   color: var(--white-color);
   background-color: var(--main-blue-color);
 }
+.curent-filter {
+  color: var(--white-color);
+  background-color: var(--main-blue-color);
+}
+.curent-filter:hover {
+  box-shadow: none;
+}
+.curent-filter:focus {
+  box-shadow: none;
+}
 .h3-portfolio {
   font-weight: 700;
   font-size: 18px;
@@ -341,7 +361,4 @@ color: var(--main-blue-color);
 }
 .card-description {
   margin: 24px 20px;
-}
-.curent-filter {
-  background-color: var(--main-blue-color);
 }
