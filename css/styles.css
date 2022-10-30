@@ -140,6 +140,9 @@ li {
 .address-link:hover .address-link-icon-style {
   fill: var(--main-blue-color);
 }
+.address-link:focus .address-link-icon-style {
+  fill: var(--main-blue-color);
+}
 .address-link:focus {
   color: var(--main-blue-color);
 }
@@ -150,16 +153,17 @@ li {
 /*hero-section*/
 
 .hero-style {
+  max-width: 1600px;
   background-color: var(--section-dark-bg);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/hero.jpg);
+    ),    url(../images/hero.jpg);
   padding: 200px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   text-align: center;
+  margin: 0 auto;
 }
 .hero-text {
   font-weight: 900;
@@ -195,13 +199,17 @@ li {
 
 .features-icon {
   display: flex;
+  width: 270px;
+  height: 120px;
   background-color: var(--section-light-bg);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
 .feature-icon-style {
   width: 70px;
   height: 70px;
-  margin: 25px auto;
+
 }
 
 .features-section {
@@ -328,7 +336,7 @@ li {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--text-color);
+  fill: var(--customers-border);
 }
 
 /*regular-customers*/
